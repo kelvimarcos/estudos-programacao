@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Citações e códigos</title>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+    <h2>condigo fonte</h2>
+    <p>o comando &lt; Code &gt; identifica códigos no HTML mas não mantem uma semântica.
+
+        O &lt;pre&gt;deve ser usado antes do <code></code> para organizar. exemplo:
+        
+        
+        <pre><code> def obter_pagina(url):
+        try:
+            # Fazendo a requisição GET para a URL
+            response = requests.get(url)
+            
+            # Verificando se a requisição foi bem-sucedida (código de status 200)
+            if response.status_code == 200:
+                # Retornando o conteúdo da página
+                return response.text
+            else:
+                print(f"Erro ao obter página: {response.status_code}")
+                return None
+        except Exception as e:
+            print(f"Ocorreu um erro: {str(e)}")
+            return None </code></pre> </p>
+
+
+
+
+            <h2>Citações simples</h2>
+            <p>Como diria o pai de um amigo: <q> O computador é um burro muito rápido</q></p>
+
+
+            <h2>Citações completas</h2>
+            <p>Segundo Jheff noble no seu livro HTML para leigos: <blockquote cite="link do livro">A diferença entre elementos inline e um bloco de texto é importante. os elementos HTML, neste capítulo descrevem os blocosn de texto</blockquote></p>
+
+
+           <h2>Abreviação</h2>
+           <p>Estou estudando <abbr title="Hyper text Mark">HTML</abbr> e <abbr title="Cascata">CSS</abbr></p>
+
+
+            
+            <h2>Texto invertido</h2>
+            <p>  <bdo dir="rtl">estou aprendendo a criar coisas em html</bdo></p>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

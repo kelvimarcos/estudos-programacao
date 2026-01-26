@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pesquisa</title>
+    <style> 
+    h1 {font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;}
+
+        
+
+    </style>
+</head>
+<body>
+
+    <h1>Idade atual</h1>
+    <p>Digite sua idade atual: <input type="number" name="num" id="num">
+
+    <input type="button" name="vef" value="verificar" id="vef" onclick="calcular()"> </p>
+
+   <Div id="res"></Div> 
+
+   <script>
+    function calcular() { 
+
+         var idade = window.document.querySelector
+            ('input#num')
+            
+            var idade = window.document.querySelector('div#res')
+            
+            var idade = Number(idade.value)
+
+          idade.innerHTML = `<p>você é maior de idade <strong>${idade}</strong></p>`
+
+          idade.innerHTML += `<p>Dirija sempre com o cinto de segurança</p>` 
+
+
+    }
+
+
+
+   </script>
+
+
+
+    
+</body>
+</html>

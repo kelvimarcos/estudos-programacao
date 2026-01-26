@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de login</title>
+
+    <style>
+       
+
+        html { font-family: "helvetica neue", arial, sans-serif;
+    height: 100%;}
+
+
+        body { display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            margin: 0;}
+
+       form { 
+            display: block;
+            width: 350pX;
+            margin: 0 auto;
+            padding: 15PX;
+            background-color: #ecf0f1;
+            border-radius: 5px;
+            box-shadow: 2px 2px 13px rgba(47, 47, 47, 0.748);}
+
+        fieldset { border: none;
+            padding: 0;
+            margin: 0;
+                }
+
+        input, label { width: 100%;
+                        display: block;
+                        box-sizing: border-box;}
+
+
+        label { margin-bottom: .25em;}
+
+        input { padding: .75em;
+        border-radius: 5px;
+        margin-bottom: 1.5em;
+        border: 1px solid rgb(152, 152, 152);
+        font-size: 1em;}
+
+
+        legend { padding: 1em;
+        text-align: center;
+    font-weight: bold;
+    color: #454e4f;
+    font-size: 1.2em;
+margin-bottom: .5em;}
+
+
+#btn { background-color: #39427e;
+    color: white;
+cursor: pointer;
+width: fit-content;
+margin-left: auto;
+}
+
+.btn2 { background-color: #39427e;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;}
+
+#reset { background-color: rgba(138, 0, 0, 0.733);}
+
+.actions { display: flex;
+    gap: 8px;}
+
+
+    </style>
+
+</head>
+<body>
+    <h1>Login</h1>  
+
+    <form action="#" method="get" target="_blank">
+        <fieldset>
+            <legend>Entre com seus dados de acesso</legend>
+            <label for="user">Usuário</label>
+            <input type="text" id="user" required autofocus>
+            <label for="pass">Senha</label>
+            <input type="password" id="pass" required>
+            <div class="actions">
+                <input class="btn2" id="reset" type="reset" value="Redefinir">
+                <input class="btn2" type="submit" value="Entrar">
+            </div>      
+         </fieldset>
+    </form>
+
+
+
+    
+
+   
+
+    
+
+
+
+  
+    
+</body>
+</html>

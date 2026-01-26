@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrupando colunas</title>
+</head>
+
+<style>
+
+    body { font-family: Arial, Helvetica, sans-serif;}
+
+
+    table { border-collapse: collapse;
+    width: 500px;}
+
+
+    caption { font: 1.3rem;
+        font-weight: bolder;
+    padding: 8px;}
+
+
+    th, td { border: 1px solid black;
+        padding: 8px;}
+
+
+.cnome { background-color: rgba(137, 43, 226, 0.237);}
+
+
+
+</style>
+
+
+<body>
+    <h1>Exercício de tabela</h1>
+
+    
+
+
+
+    <table>
+        <colgroup>
+            <col class="cnome" span="3">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof">
+        
+        </colgroup>
+        
+        <caption>Cadastro</caption>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Sexo</th>
+                <th>Idade</th>
+                <th>Profissão</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr> 
+                <td>Ana Maria</td>
+                <td>F</td>
+            
+                <td>25</td>
+            
+                <td>Jornalista</td>
+            
+            </tr>
+            <tr> 
+                <td>Gustavo Silva</td>
+                <td>M</td>
+            
+                <td>30</td>
+            
+                <td>Advogado</td>
+            
+            </tr>
+            <tr> 
+                <td>Lucas Santana</td>
+                <td>M</td>
+            
+                <td>18</td>
+            
+                <td>Estudante</td>
+            
+            </tr>
+            <tr> 
+                <td>Larissa Santos</td>
+                <td>F</td>
+            
+                <td>27</td>
+            
+                <td>Dentista</td>
+            
+            </tr>
+            <tr> 
+                <td>Flavia Mota</td>
+                <td>F</td>
+            
+                <td>25</td>
+            
+                <td>Cuidadora</td>
+            
+            </tr>
+            <tr> 
+                <td>Juliana Galvão</td>
+                <td>F</td>
+            
+                <td>21</td>
+            
+                <td>Professora</td>
+            
+            </tr>
+
+
+
+
+        </tbody>
+
+
+
+
+
+    </table>
+
+
+
+    
+</body>
+</html>

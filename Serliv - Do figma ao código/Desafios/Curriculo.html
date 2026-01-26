@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculo</title>
+
+    <style>
+
+        * { margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;}
+
+        body { background-color: rgb(193, 193, 193);
+        width: 100vw;
+        }
+
+        .content { width: 800px;
+                    background-color: aliceblue;
+                    height: 100vh;
+                    margin: 0 auto;
+                    border-top: 8px solid rgb(0, 98, 255); 
+                    border-bottom: 10px solid rgb(0, 98, 255); }
+
+                    
+        .header { background-color: rgb(36, 160, 255);}
+
+        .titulo { text-align: center; 
+        padding: 20px;
+        color: #030066;
+        }
+
+        .subtitulo { text-align: center;
+                padding: 5px;
+                background-color: rgb(123, 198, 255);
+                color: #030066;}
+
+        
+        .contato ul {display: flex;
+                    align-items: center;
+                    justify-content: right;
+                    list-style-type:none; }
+
+        .contato a { background-color: rgb(0, 94, 188);         display: block;
+                    text-decoration: none;
+                    color: aliceblue;
+                    padding: 10px;
+                    margin: 10px 10px 25px 0;
+                    border-radius: 5px; 
+                transition: 0.5s;}
+
+        .contato a:hover { background-color: #030066;
+        color: #fff;
+        transform: scale(1.1);}
+
+        h2 { background-color: rgb(36, 160, 255);
+            font-size: 1.2em;
+            padding: 10px 0 10px 30px ;
+            border-bottom: 3px solid rgb(0, 98, 255);
+        color: #030066;
+    }
+
+
+    p { padding: 15px 0 10px 60px; 
+        color: #030066;}
+
+    
+    
+    #cursos { padding: 15px 0 15px 60px;
+            
+        list-style-type: none; 
+    text-decoration: none;}
+    
+
+ 
+    #cursos ul, li > a {  text-decoration: none;
+                color: #030066;
+                text-decoration: none;
+                padding: 5px;
+                 }
+
+    #cursos a:hover { color: rgb(0, 98, 255);
+                   ;}
+    
+    .experiencia h3 { font-size: 1em;
+                padding: 15px 0 15px 60px;}
+
+    .experiencia p { font-size: 13PX;
+                padding: 0px 0 15px 80px;
+                }
+
+    h3 { color: #030066;
+    font-weight: BOLD;}
+
+    #list { background-color: #fff;
+                    display: flex;
+                align-items: center; 
+                justify-content: center;
+                gap: 40px;}  
+                
+                
+    #list ul, li { list-style-type: none;
+        color: #030066;
+        font-weight: 600;
+       
+        }
+
+    #list { padding: 20px;}
+    
+        
+
+
+    </style>
+</head>
+<body>
+
+    <div class="content">
+        <div class="header">
+            <h1 class="titulo"> Kelvison Marcos </h1>
+            <p class="subtitulo">Brasileiro, solteiro, 26 anos.</p>
+
+        </div>
+
+
+        <div class="contato"> 
+            <ul> 
+                <li><a href="#">Github</a></li>
+                <li><a href="#">Linkedin</a></li>
+                <li><a href="">Email</a></li>
+            </ul>
+
+
+        </div>
+
+
+
+        <h2  >Objetivos</h2>
+        <p>Front-end Developer, Desenvolvedor Front-end, Web Designer</p>
+        <h2  >Cursos | Especializações</h2>
+       
+        <ul id="cursos">
+            <li><a href="#"><abbr title="Acessar plataforma">Curso em video</abbr></a></li>
+            <li><a href="#"><abbr title="Acessar plataforma">Serliv</abbr></a></li>
+            <li><a href="#"><abbr title="Acessar plataforma">FullStack-Pro</abbr></a></li>
+        </ul>
+
+
+    <div class="experiencia">
+        <h2>Experiência profissional</h2>
+            <h3> Experiência 1</h3>
+            <p>2023-2024</p>
+            <h3> Experiência 1</h3>
+            <p>2023-2024</p>
+            <h3> Experiência 1</h3>
+            <p>2023-2024</p>
+    </div>
+
+
+
+<div class="habilidades">
+    
+        <h2>Habilidades</h2>
+    
+
+        <ul id="list">
+
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React JS</li>
+                <li>Node JS</li>
+            <li>Next JS</li> 
+        </ul>
+
+</div>
+
+
+
+
+
+</div>
+
+    
+
+
+    
+</body>
+</html>

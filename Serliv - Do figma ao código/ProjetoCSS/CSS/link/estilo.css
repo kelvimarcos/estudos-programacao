@@ -1,0 +1,48 @@
+body { width: 428px;
+    height: 926px;
+    background-color: rgb(29, 118, 176); }
+
+
+
+
+.imagem1 { display: inline-block;
+        margin: auto;
+        background-color: black;
+        margin-bottom: 20px;
+        width: 289px;
+        height: 93px;
+        text-align: center;
+        padding: 20px;
+        border-radius: 8px;
+        }
+
+.imagem2 { display: inline-block;
+        background-color: black;
+        width: 289px;
+        height: 93px;
+        text-align: center;
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 8px;
+        }
+
+    .imagem3 { display: inline-block;
+        background-color: black; 
+        width: 289px;
+        height: 93px;
+        text-align: center;
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 8px;
+        }
+
+    .imagem4 { display: inline-block;
+        background-color: black;
+        width: 289px;
+        height: 93px;
+        text-align: center;
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 8px;
+        }
+            

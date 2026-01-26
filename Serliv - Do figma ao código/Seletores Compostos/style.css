@@ -1,0 +1,18 @@
+
+
+
+
+a[href="#"]:not(.link_ok) { color: rgb(20, 85, 4);
+                opacity: .4;
+padding: 20px;
+text-decoration: none;}
+
+
+
+
+a[href^="http"] { color: rgb(242, 0, 255);
+        background-color: brown;
+padding: 10px;
+border-radius: 5px;
+text-decoration: none;}
+

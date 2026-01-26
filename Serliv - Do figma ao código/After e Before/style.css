@@ -1,0 +1,45 @@
+
+
+div { padding: 15px;
+    border: 3px solid red;
+    position: relative;}
+    
+    p { margin: 0;}
+
+
+
+p::before { 
+        
+        content: url(imagem/Café-Gold2.png);
+        width: 20px;
+        height: 20px;
+        box-sizing: border-box;
+        background-color: red;
+        display: block;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        /* Antes */
+
+
+        }
+
+
+
+#paragrafo::after {
+
+    content: url(imagem/Café-Gold2.png);
+    width: 20px;
+        height: 20px;
+        background-color: red;
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0; 
+
+    
+    /* depois */
+
+
+}
+

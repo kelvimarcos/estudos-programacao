@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Somador de números</h1>
+    <script>
+        // 1. Pergunte quantas notas
+        let quantidade = Number(prompt("Quantas notas você vai digitar?"));
+
+        // 2. Variáveis de controle
+        let contador = 1;       // Começa em 1 (primeira nota)
+        let soma = 0;           // Acumulador começa em zero
+
+        // 3. Loop para pedir cada nota
+        while (contador <= quantidade) {
+            let nota = Number(prompt("Digite a nota " + contador + ":"));
+            soma += nota;       // Acumula a nota
+            contador++;         // Próxima nota
+        }
+
+        // 4. Calcula e mostra a média
+        let media = soma / quantidade;
+        alert("Você digitou " + quantidade + " notas. Soma: " + soma + ". Média: " + media);
+    </script>
+</body>
+</html>

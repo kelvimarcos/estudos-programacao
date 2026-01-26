@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Projeto My Components</title>
+
+    <link rel="stylesheet" href="css/normalise.css">
+
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body>
+
+    <header class="main-header"> <!-- inicio do header -->
+        <nav class="main-nav"> <!-- inicio do nav -->
+            <a href="#">
+                <img src="imagens/perfil.png" alt="Foto de perfil.png" class="perfil-img">
+            </a>
+
+
+            <ul>
+                <li><a href="#index.html">Home</a></li>
+                <li><a href="#">Tipografia</a></li>
+                <li><a href="#">Cards</a></li>
+                <li><a href="#">Listas</a></li>
+                <li><a href="#">Formulário</a></li>
+                <li><a href="#">Botões</a></li>
+                <li><a href="#">Tabelas</a></li>
+
+            </ul>
+
+        </nav> <!-- Fim do nav -->
+
+
+    </header> <!-- Fim do header -->
+
+
+    <main class="main"> <!-- Inicio do main -->
+
+        <h1>My Components</h1>
+
+        <section> <!-- Inicio do section -->
+
+            <h2>Entre em contato</h2>
+
+            <div class="row">
+
+                <form action="">
+
+                    <div class="row">
+                    
+                    
+                    <div>
+                            
+                        <label for="nome">Nome</label>
+                        <input type="text" name="nome" id="nome" placeholder="Nome completo" autocomplete="off">
+                    </div>
+
+
+
+
+                        <div>
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" autocomplete="off"> 
+                           
+                        </div>
+                    </div>
+               
+
+               
+                        <label for="mensagem">Digite sua mensagem</label>
+                        <textarea name="mensagem" id="mensagem" rows="6"></textarea>
+                        <input type="submit" value="enviar"
+                        class="btn">
+
+                        
+                        
+                </form>
+                   
+
+                <address>
+                    <p>Endereço 1234, city, 62700-000,rua 77</p>
+                    <p>Email: pessoa@Gmail.completo</p>
+                    <p>Telefone: xx xxxxxxxxx</p>
+                </address>
+
+
+            </div>
+
+        </section> <!-- Fim do section -->
+
+
+        <section>
+            
+            <h2>Quiz</h2>
+
+      
+           
+            <form action="" class="form-quiz">
+
+                <label for="tecnologia">Qual é a sua linguagem preferida?</label>
+                <select name="tecnologia" id="tecnologia">
+                    <option value="null">Selecione</option>
+                    <option value="HTML">HTML</option>
+                    <option value="CSS">CSS</option>
+                    <option value="JS">Javascript</option>
+                </select>
+
+                <label> Baixa prioridade <input type="radio" name="prioridade" value="baixa"></label>
+
+                <label> Média prioridade <input type="radio" name="prioridade" value="media"></label>
+
+                <label> Alta prioridade <input type="radio" name="prioridade" value="alta"></label>
+
+
+                <label><input type="checkbox" name="copy" value="true"> Envie-me uma cópia</label>
+               
+                <label><input type="checkbox" name="humano" value="true"> Sou um humano</label>
+               
+            <div class="row">
+                <input type="reset" value="Limpar" class="reset">
+                <input type="submit" value="Enviar" class="btn">
+           </div>
+
+            </form>
+
+           
+        </section>
+
+    </main>
+
+
+</body>
+
+</html>

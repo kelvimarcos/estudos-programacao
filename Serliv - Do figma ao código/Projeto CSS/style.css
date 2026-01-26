@@ -1,0 +1,133 @@
+
+
+
+    body { font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(216, 216, 216);}
+
+
+    .hero { background-image: url(imagens/bg-3.jpg);
+        height: 500px;
+        background-size: cover;
+        background-position: right center;
+        padding-top: 1px;
+        text-align: center;
+        }
+
+        
+        
+        .hero-content { margin: 50px auto 0;
+            width: 80%;
+            margin-bottom:  0;
+           
+           }
+            
+            
+        .hero-content h1 { font-size: 56px;
+                        text-shadow: 2px 2px 2px black;
+                        margin-bottom: 0;
+                        color: #FFF;
+                        text-transform: uppercase;}
+
+        .hero-content p { 
+            margin-top: 35px;
+            background-color: rgba(0, 0, 0, 0.426);
+            display: inline-block;
+            padding: 16px;
+            color: #FFF;
+            border-bottom: 2px solid #FFF;
+            
+        }
+
+
+        .hero nav  ul {margin: 20px 80px 0 0; 
+        text-align: right; }
+
+
+
+
+       .hero nav li { display: inline-block;
+        list-style-type: none;
+        
+        margin-left: 16px;}
+
+
+        .hero nav a {
+            background-color: rgba(0, 0, 0, 0.355);
+            padding: 10px;
+            color:#FFF;
+            border: 1px solid #FFF;
+            text-decoration: none;
+            display: block;
+            text-transform: uppercase;
+            font-size: 14px;
+            transition: 0.8s;
+            }
+
+        .hero nav a:hover { background-color: rgba(0, 0, 0, 0.599);
+        color: #FFF;
+        transform: scale(1.1);}
+
+
+
+
+        main { 
+            width: 90%;
+            margin: 0 auto;
+            min-width: 400px;
+            max-width: 860px;}
+
+            section { padding-top: 32px;}
+
+
+
+            article { background-color: #FFF;
+                padding: 16px;
+                margin-bottom: 32px;
+                margin-top: 32px;}
+           
+           
+           
+                article h2 { padding: 5px;
+                background-color: rgba(197, 197, 197, 0.447); 
+            margin-top: 0;}
+
+
+            article .btn { background-color: rgba(87, 87, 87, 0.503);
+            display: inline-block;
+            text-decoration: none;
+            padding: 12px;
+            border-radius: 5px;
+            color: #080808;
+            text-align: right;
+            width: fit-content;
+            text-align: right;
+    
+            }
+
+            .btn:hover { background-color: #0808086b;
+            }
+
+            footer { background-color: #353535;
+            color: #FFF;
+            padding: 30px;
+            text-align: center;
+            font-size: 13px;
+        margin-top: 60px;}
+
+
+        footer h3 {font-size: 13px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

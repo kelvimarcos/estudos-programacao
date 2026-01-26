@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+
+    <style>
+
+        * { font-family: Arial, Helvetica, sans-serif;}
+
+
+    </style>
+</head>
+<body>
+    <h1>Meu primeiro formulário</h1>
+
+    <!-- Modelo simples -->
+    <form action="">
+
+        <p>nome: <input type="text" name="nome" id="nome"> </p>
+        <p>Sobrenome: <input type="text" name="sobrenome" id="sobrenome"> </p>
+        <p><input type="submit" value="enviar"></p>
+
+        <!-- O action indica a ação que quero para o formulário -->
+
+
+
+
+    <!-- Modelo com label -->
+    
+    <form action="">
+        <p><label for="inome"> Nome </label>
+
+        <input type="text" name="inome" id="inome"> </p>
+
+
+        <p><label for="isobrenome">Sobrenome</label>
+
+        <input type="text" name="isobrenome" id="isobrenome"> </p>
+
+        <p><input type="submit" value="enviar"></p>
+
+        
+    </form>
+
+
+    <!-- Modelo com Get e Post -->
+
+    <form action="cadastro.php" method="get">
+        <p><label for="inome"> Nome </label>
+
+        <input type="text" name="inome" id="inome"> </p>
+
+
+        <p><label for="isobrenome">Sobrenome</label>
+
+        <input type="text" name="isobrenome" id="isobrenome"> </p>
+
+        <p><input type="submit" value="enviar"></p>
+
+        
+    </form>
+
+
+    <!-- Get: os dados de formulario aparecem na url.
+    pode enviar dados de formulários. 
+    Limite de 3000 bytes.
+
+
+    post: os dados aparecem em inspecionar-->
+
+<strong></strong>
+    <meta><title></title>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Regras de aprovação</h1>
+    <script>
+
+        let media = Number(prompt("Digite sua média final: (0 a 10)"));
+        let frequencia = Number(prompt("Digite sua frequência: (0 a 100)"));
+
+        if (media >= 7 && frequencia >= 75){
+            alert("Aprovado");}
+            
+            else if (media >= 5 && media < 7 && frequencia >= 75){
+            alert("Recuperação"); } 
+        
+        else {
+            alert("Reprovado");}
+
+    </script>
+
+
+</body>
+
+</html>

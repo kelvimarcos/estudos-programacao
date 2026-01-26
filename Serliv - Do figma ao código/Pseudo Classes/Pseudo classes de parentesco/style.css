@@ -1,0 +1,27 @@
+
+
+div { padding: 10px;}
+
+
+p:first-child { color: brown; 
+            }
+
+
+
+
+p:last-child { color: orange;
+  
+           }
+
+
+p:nth-child(2) {color: black;
+               background-color: burlywood;
+               padding: 8px;
+                border-radius: 8px;}
+
+
+p:first-of-type { background-color: rgb(0, 0, 0);
+                color: white;
+            padding: 15px;}
+
+p:nth-last-of-type(1) { background-color: blueviolet; }

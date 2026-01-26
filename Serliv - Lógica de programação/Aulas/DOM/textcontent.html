@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="Pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="titulo">Document Object Model</h1>
+    <p id="paragrafo"> textContent x innerHTML</p>
+    <hr>
+
+   <input type="text" id="user" value="Value preenchido">
+
+
+   <script>
+
+
+        let user = document.getElementById("user")
+
+        let h1 = document.getElementById("titulo").textContent = "textContent x innerHTML";
+
+
+        let p = document.getElementById("paragrafo");
+
+        /* p.textContent = "outro <b> texto </b> continua com qq texto " */
+
+        p.innerHTML = "outro <b> texto </b> continua com qq texto";
+
+   </script>
+
+</body>
+</html>

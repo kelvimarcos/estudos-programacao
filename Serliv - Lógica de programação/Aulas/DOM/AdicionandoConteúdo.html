@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="Pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="titulo">Document Object Model</h1>
+    <p id="paragrafo"> textContent x innerHTML</p>
+    <hr>
+
+   <input type="text" id="user" value="Value preenchido">
+
+   <hr>
+
+   <h2>Lista de tarefas</h2>
+
+   <ol id="listaTarefas">
+    <li>Aprender CSS</li>
+    <li>Aprender JavaScript</li>
+    <li>Aprender DOM profundamente</li>
+    <li>Criar Algo</li>
+   </ol>
+
+
+   <script>
+
+    document.getElementById("titulo").innerHTML = "Titulo Alterado";
+
+    const lista = document.getElementById("listaTarefas");
+    let novaTarefa = "Aplicar à vaga de emprego";
+        
+    lista.innerHTML = lista.innerHTML + "<li>teste</li>"
+
+
+   </script>
+
+</body>
+</html>

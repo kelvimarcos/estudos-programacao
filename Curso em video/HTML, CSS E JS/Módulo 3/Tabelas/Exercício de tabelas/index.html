@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+</head>
+
+<style>
+    body {font-family: Arial, Helvetica, sans-serif;}
+    
+    
+    table { border-collapse: collapse;
+    width: 500px;
+    height: 80px;}
+
+    thead { background-color: rgb(201, 201, 201);}
+
+
+   
+
+    th, td { border: 1px solid black;
+        padding: 8px;}
+
+
+    caption { padding: 10px;
+    background-color: rgb(149, 149, 149);
+color: aliceblue;
+font-weight: 700;}
+
+
+
+</style>
+<body>
+    <h1>Exercício de tabelas</h1>
+
+    <table>
+
+        <caption>Filmes favoritos</caption>
+        <thead>
+        <tr> 
+            <th scope="col">Grupo</th>
+            <th scope="col">Nomes
+            </th>
+            <th colspan="3" scope="colgroup">Filmes</th>
+        
+        </tr>
+    </thead>
+
+    <tbody>
+        
+        <tr> 
+            <th rowspan="4" scope="rowgroup">Mulheres</th>
+
+        </tr>
+
+        <tr> 
+            <th>Ana maria Santos</th>
+            <td>Alien</td>
+            <td>Rambo
+            <td>Vingadores</td>                
+            </td>
+        </tr>
+        <tr> 
+            <th>Beatriz Souza</th>
+            <td>Hulk</td>
+            <td>Inception</td>
+            <td>Batman</td>                
+            
+        </tr>
+        <tr> 
+            <th>Cláudia mota</th>
+            <td>Oblivion</td>
+            <td>Matrix</td>
+            <td>Big Hero</td>                
+            
+        </tr>
+            
+            <tr>
+                <th rowspan="4" scope="rowgroup">Homens</th>
+                <td>João da Silva</td>
+                <td>Transformes</td>
+                <td> Vingadores</td>
+                <td>Hulk</td>
+            </tr>
+            
+            <tr>
+                <td>José dos Santos</td>
+                <td>Pelé</td>
+                <td> Batman</td>
+                <td>Coringa</td>
+            </tr>
+
+            <tr>
+                <td>Fabiano mota</td>
+                <td>Táxi</td>
+                <td> Will-E</td>
+                <td>Toy story</td>
+            </tr>
+            
+            
+
+    </tbody>
+
+    <tfoot>
+            <tr> 
+                <th  colspan="4" scope="row">Total</th>
+                <td> 1000</td>
+
+
+            </tr>    
+    </tfoot>
+      
+       
+
+
+
+
+
+    </table>
+    
+</body>
+</html>

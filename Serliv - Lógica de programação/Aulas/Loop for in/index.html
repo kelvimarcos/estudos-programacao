@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<body>
+    </head>
+
+    <script>
+
+        let nome = "Kelvison"
+
+
+        const endereco = {
+            rua: "Rua 09",
+            numero: 50
+        }
+        const pessoa = {
+            nome,
+            sobrenome: "Marcos",
+            endereco: endereco
+        }
+
+        document.write(`O ${pessoa.nome} mora em ${endereco.rua} numero ${endereco.numero}` )
+
+        //loop for in serve para interagir com um objeto
+
+        for(let prop in pessoa){
+            console.log(prop)
+            //console.log(pessoa.prop)
+            console.log(pessoa[prop])
+        }
+    </script>
+</body>
+
+</html>

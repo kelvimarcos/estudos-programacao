@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Break vs Continue</title>
+</head>
+<body>
+
+    <h1>break vs continue</h1>
+
+    <script>
+        console.log("------- Loop For com Break");
+        for(let i = 1; i <= 10; i++) {
+            if(i === 5) {
+                break; // Para o loop completamente no 5
+            }
+            console.log(i); // Coloquei dentro do loop para você ver o resultado
+        } 
+
+        console.log("------- Loop For com Continue");
+        // Corrigido: 'if' é palavra reservada, mudei para 'j'. 
+        // Também reiniciei a contagem.
+        for (let j = 1; j <= 10; j++) {
+            if(j === 5) {
+                continue; // Pula apenas a iteração do 5
+            }
+            console.log(j);
+        }
+
+        console.log("fim do loop continuar");
+
+        console.log("------- Loop While com Break");
+        let x = 1;
+        while(x < 10) {
+            console.log(x);
+            if(x === 5) {
+                break;
+            } 
+            x++;
+        }
+        console.log("Fim do loop while com break");
+
+        console.log("------- Loop While com Continue");
+        x = 1;
+        while(x < 10) {
+            if(x === 5) {
+                x++; // Incremento necessário antes do continue para evitar loop infinito
+                continue;
+            } 
+            console.log(x);
+            x++;
+        }
+        console.log("Fim do loop while com continue");
+
+    </script>
+    
+</body>
+</html>

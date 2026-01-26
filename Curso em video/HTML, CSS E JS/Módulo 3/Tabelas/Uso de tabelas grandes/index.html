@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+</head>
+
+
+
+<style> 
+* { font-family: Arial, Helvetica, sans-serif;}
+
+table { width: 500px;
+       border-collapse: collapse;  }
+
+td, th { border: 1px solid black;
+padding: 10px;}
+
+thead { background-color: rgba(0, 0, 0, 0.751);
+color: aliceblue;}
+
+
+tbody .num { text-align: right;}
+
+
+tfoot { background-color: rgba(0, 0, 0, 0.693);
+    color: aliceblue;
+        }
+
+
+
+</style>
+
+<body>
+    <h1>Uso de tabelas grandes</h1>
+
+    
+
+    <!---
+        Anatomia das tabelas grandes 
+        Table
+            thead
+                tr, td, th
+            tbody
+                tr, td, th
+            tfoot
+                tr, td, th
+    -->
+
+
+    <table> 
+        <caption>População das unidades federativas</caption>
+
+        <thead>
+            <tr>
+                <th>Estado</th>
+                <th>População</th>
+
+
+
+            </tr>
+
+        </thead>
+
+
+
+
+        <tbody>
+            <tr >
+                <td> São paulo</td>
+                <td class="num"> 191.8828.28</td>
+
+            </tr>
+
+            <tr >
+                <td> São paulo</td>
+                <td class="num"> 191.8828.28</td>
+
+            </tr>
+            <tr >
+                <td> Rio de Janeiro</td>
+                <td class="num"> 191.8828.28</td>
+
+            </tr>
+            <tr >
+                <td> Minas Gerais</td>
+                <td class="num"> 191.8828.28</td>
+
+            </tr>
+            <tr >
+                <td> Maceió</td>
+                <td class="num"> 191.8828.28</td>
+
+            </tr>
+            <tr >
+                <td> Sergipe</td>
+                <td class="num"> 191.8828.28</td>
+
+            </tr>
+            <tr >
+                <td> Alagoas</td>
+                <td class="num"> 191.8828.28</td>
+
+            </tr>
+            <tr >
+                <td> Rio grande do sul</td>
+                <td class="num"> 191.8828.28</td>
+
+            </tr>
+            <tr >
+                <td> Amazonas</td>
+                <td class="num"> 191.8828.28</td>
+
+            </tr>
+
+
+
+
+
+        </tbody>
+
+
+
+
+
+
+        <tfoot>
+            <tr>
+                <th> Total de habitantes </th> 
+                    <td> 29.3923.29</td>   
+            
+            
+            </tr>
+
+
+
+        </tfoot>
+
+
+
+
+
+
+    </table>
+    
+</body>
+</html>

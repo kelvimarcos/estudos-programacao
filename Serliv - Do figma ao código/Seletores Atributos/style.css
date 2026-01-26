@@ -1,0 +1,21 @@
+
+
+article { padding: 15px;
+background-color:brown;
+border-radius: 5px;
+width: 300px;}
+
+
+article p { background-color: rgb(253, 253, 253);
+        }
+
+
+p > b {color: #000;}
+
+p + a { color: yellow;}
+
+
+h3 ~ p { color: green;}
+
+
+

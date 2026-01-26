@@ -1,0 +1,105 @@
+body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #ccc;
+}
+
+.hero { background-image: url(../imagens/bg-3.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position: right center;
+    padding-top: 1px;}
+
+
+
+.hero-content { margin: 50px auto 0;
+                width: 80%;
+                text-align: center;
+                color: white;}
+
+
+.hero-content h1 { font-size: 56px;
+                text-shadow: 2px 2px 2px rgb(0, 0, 0);
+                text-transform: uppercase;}
+
+
+.hero-content p { background-color: rgba(0, 0, 0, 0.7);
+            font-size: 18px;
+            display: inline-block;
+            padding: 10px;
+            border-bottom: 2px solid rgb(196, 196, 196);}
+
+
+nav ul { 
+        margin: 20px 50px 0 0;
+        text-align: right;}
+
+
+ nav li { display: inline-block;
+        list-style-type: none;
+        border: 1px solid white;
+        margin-left: 5px;
+        border-radius: 8px;}
+
+
+nav a { background-color: rgba(0, 0, 0, 0.3);
+        padding: 5px;
+        display: block;
+        color: rgb(234, 234, 234);
+        text-decoration: none;
+        font-size: 12px;
+        letter-spacing: 2px;
+        border-radius: 8px;}
+
+nav a:hover { background-color: rgba(0, 0, 0, 0.5);}
+
+
+
+.container { width: 90%;
+    margin: auto;
+    min-width: 400px;
+    max-width: 860px;
+    }
+
+section { margin-top: 32px;}
+
+
+article  {background-color: #ffffff;
+    padding: 16px;
+    margin-bottom: 32px;}
+
+article h2 { border-bottom: #ccc;  
+            background-color: #dedede; 
+            padding: 10px;
+            margin-top: 0;}
+
+
+.btn { 
+    background-color: #c8c8c8;
+    display: block;
+    padding: 10px;
+    border-radius: 8px;
+   margin-left: auto;
+    width: 80px;
+    text-decoration: none; 
+    color: rgb(0, 0, 0);
+    text-align:center;}
+
+    a:hover.btn { background-color: #1b1b1b;
+                color: rgb(255, 255, 255); }
+    
+    
+.rodape { background-color: #424242;
+        color: white;
+        display: block;
+        text-align: center;
+        padding: 20px;
+        font-size: 12px;
+        text-shadow: 1px 2px 2px rgb(0, 0, 0);
+        
+        }
+
+
+        
+   
+

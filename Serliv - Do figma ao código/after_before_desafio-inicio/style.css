@@ -1,0 +1,50 @@
+
+
+body { }
+
+
+a {
+
+    display: inline-block;
+            margin-bottom: 1em;
+
+}
+
+a[target="_blank"]::after { content: url(imagens/newWindow-icon.png);
+margin-left: .5rem;}
+
+
+
+
+
+a[href$=".pdf"]::before { content: url(imagens/pdf-icon.gif);
+margin-right: .5rem;}
+
+
+
+input[type="checkbox"]:checked+label { color: green;}
+
+
+input[type="checkbox"]:not(:disabled)+label { color: rgb(255, 0, 0);}
+
+input[type="checkbox"]:disabled+label{color: blue;}
+
+
+li  li li:nth-child(3) {background-color: blueviolet;
+padding: 10px;
+border-radius: 5px;
+width: 300px;
+color: aliceblue;
+font-weight: 700;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+
+
+label
+
+
+
+
+
+
+
+
