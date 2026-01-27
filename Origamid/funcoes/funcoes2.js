@@ -13,3 +13,12 @@ function terceiraIdade(idade){
         console.log('Não é terceira idade');
     }}
 terceiraIdade(20); // Terceira idade
+
+
+function dados() {
+    let nome = `André`;
+    let idade = 28;
+    return `${nome}, ${idade} anos`;
+}
+
+console.log(dados()); // André, 28 anos
