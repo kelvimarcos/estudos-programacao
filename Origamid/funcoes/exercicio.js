@@ -25,3 +25,28 @@ function nomeCompleto (nome, sobrenome){
 }
 
 console.log(nomeCompleto('Kelvison', 'Marcos'));
+
+
+
+//crie uma função que verifique se um número é par
+
+function isPar(numero){
+    let modulo = numero % 2;
+    if(modulo === 0){
+        return true;
+    } else {
+        return false;
+    }
+}
+
+
+console.log(isPar(3)); // true
+
+
+//crie uma função que retorne o tipo de dado do argumento passado nela (typeof)
+
+function tipoDado(dado){
+    return typeof dado;
+}
+
+console.log(tipoDado(10)); // number
