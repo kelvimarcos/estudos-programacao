@@ -39,7 +39,3 @@ function corFavorita(cor) {
 
 corFavorita('azul'); // 'Eu gosto do céu'
 
-
-addEventListener('click', function(){
-    console.log('oi');
-});
