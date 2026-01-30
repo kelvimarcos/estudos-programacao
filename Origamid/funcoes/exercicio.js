@@ -50,3 +50,21 @@ function tipoDado(dado){
 }
 
 console.log(tipoDado(10)); // number
+
+
+//crie uma função que retorne o nome do país onde você nasceu
+
+
+function paisNascimento(){
+    return 'Brasil';
+}
+
+
+console.log(paisNascimento()); // Brasil
+
+
+
+//quando o evento 'scroll' acontecer, exiba no console a mensagem 'Você está fazendo scroll na página'
+
+addEventListener('scroll', function(){
+    console.log('Você está fazendo scroll na página');})
