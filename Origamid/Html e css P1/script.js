@@ -1,4 +1,4 @@
-const animais = document.getElementById('animais');
+/* const animais = document.getElementById('animais');
 console.log(animais)
 
 const gridSection = document.getElementsByClassName('grid-section');
@@ -32,4 +32,4 @@ gridSectionNode.forEach(function(item, index){
     console.log(item)
 });
 
-const arrayGrid = array.from(gridSectionHTML);
+const arrayGrid = array.from(gridSectionHTML); */
