@@ -16,7 +16,7 @@ paragrafos.forEach((item) => {
 
 
 
-    const menu = document.querySelector('.menu');
+   /*  const menu = document.querySelector('.menu');
 
     menu.classList.add('ativo');
     menu.classList.remove('azul');
@@ -41,7 +41,7 @@ const animais = document.querySelector('.animais');
 console.log(animais.attributes['data-texto']);
 
 
-const img = document.querySelector('src');
+const img = document.querySelector('src'); */
 
 
 
