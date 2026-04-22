@@ -1,7 +1,7 @@
 function Filme() {
     return (
         <div>
-            <h1>Filme</h1>
+            <h1>Bem-vindo a página de filmes</h1>
         </div>
     );
 }
