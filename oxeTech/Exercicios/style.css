@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+   
+}
+
+
+
+.tabela {
+    width: 500px;
+     margin: 0 auto;
+     background-color: #fff;
+     padding: 20px;
+        border-radius: 10px;
+}
+
+
+
+th { 
+   background-color: #4b4b4b;
+   padding: 12px 12px;
+   border-radius: 5px;
+    color: white;
+    
+}
+
+
+td {
+    padding: 12px 12px;
+    border-bottom: 1px solid #ddd;
+}
