@@ -9,42 +9,53 @@ import './Home.css';
 function Home() {
 
     const [filmes, setFilmes] = useState([]);
+    const [loading, setLoading] = useState(true);
 
-    const
+    useEffect(() => {
+        async function loadFilmes() {
+            const response = await api.get('movie/now_playing', {
+                params: {
+                    api_key: '44a7b159745153cc47f8ff3f3c206f84',
+                    language: 'pt-BR',
+                    page: 1
+                }
+            });
 
-   useEffect(() => {
-    async function loadFilmes() {
-        const response = await api.get('movie/now_playing', {
-            params: {
-                api_key: '44a7b159745153cc47f8ff3f3c206f84',
-                language: 'pt-BR',
-                page: 1
-            }
-        });
+            setFilmes(response.data.results); // <-- adiciona .data.results
+            setLoading(false); // <-- define loading como false após os dados serem carregados
+        }
 
-        setFilmes(response.data.results); // <-- adiciona .data.results
-    }
+        loadFilmes();
+    }, []);
 
-    loadFilmes();
-}, []);
-            return (
-                <div className="container">
-                    <div className="lista-filmes">
-                        {filmes.map((filme) => {
-                            return(
-                                <article key={filme.id}>
-                                    <strong>{filme.title}</strong>
-                                <img src={`https://image.tmdb.org/t/p/original${filme.poster_path}`} alt={filme.title} />
-                                <Link to={`/filme/${filme.id}`}>Acessar</Link>
-                                </article>
-                            )
-                        })}
-                         </div>
+    if(loading){
 
-                      </div>
-                    
-                    
-                    );
-                };
+        return(
+        
+            <div className="loading">
+                <h2>Carregando filmes...</h2>
+            </div>
+        )}
 
-        export default Home;
+
+    return (
+        <div className="container">
+            <div className="lista-filmes">
+                {filmes.map((filme) => {
+                    return (
+                        <article key={filme.id}>
+                            <strong>{filme.title}</strong>
+                            <img src={`https://image.tmdb.org/t/p/original${filme.poster_path}`} alt={filme.title} />
+                            <Link to={`/filme/${filme.id}`}>Acessar</Link>
+                        </article>
+                    )
+                })}
+            </div>
+
+        </div>
+
+
+    );
+};
+
+export default Home;
